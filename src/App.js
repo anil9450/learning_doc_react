@@ -1,5 +1,7 @@
 import './App.css';
-import Gallery, { Namephotos, Photo } from './components/Gallery';
+import Gallery,
+{ Avatar, List, ListofPerson, Namephotos, NewList, PeopleList, Photo, TodoList }
+  from './components/Gallery';
 
 function App() {
   return (
@@ -7,6 +9,12 @@ function App() {
       <Gallery />
       <Photo />
       <Namephotos />
+      <Avatar />
+      <TodoList />
+      <List />
+      <NewList />
+      <ListofPerson />
+      <PeopleList />
     </div>
   );
 }
